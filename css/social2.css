@@ -1,0 +1,194 @@
+@media (max-width: 415px) {
+  html {
+    font-size: 16px; } }
+@media (max-width: 376px) {
+  html {
+    font-size: 15px; } }
+@media (max-width: 321px) {
+  html {
+    font-size: 14px; } }
+/*--------------------------------------------------------- */
+.blod {
+  font-weight: bold; }
+
+.mar-8rem {
+  margin: 0.8rem; }
+
+.colorWhite {
+  color: white; }
+
+.colorBlack {
+  color: black; }
+
+.underLine {
+  text-decoration: underline; }
+
+/*-------------------------------------------------------- */
+h2 {
+  height: 3.14286rem;
+  line-height: 3.14286rem;
+  font-size: 1.57143rem;
+  text-align: center;
+  color: #fff; }
+  h2 span {
+    float: left;
+    padding-left: 1.42857rem; }
+  h2 i {
+    float: right;
+    padding-right: 1.42857rem; }
+
+@media (max-width: 415px) {
+  html {
+    font-size: 16px; } }
+@media (max-width: 376px) {
+  html {
+    font-size: 15px; } }
+@media (max-width: 321px) {
+  html {
+    font-size: 14px; } }
+/*--------------------------------------------------------- */
+.blod {
+  font-weight: bold; }
+
+.mar-8rem {
+  margin: 0.8rem; }
+
+.colorWhite {
+  color: white; }
+
+.colorBlack {
+  color: black; }
+
+.underLine {
+  text-decoration: underline; }
+
+/*-------------------------------------------------------- */
+h2 {
+  height: 3.14286rem;
+  line-height: 3.14286rem;
+  font-size: 1.57143rem;
+  text-align: center;
+  color: #fff; }
+  h2 span {
+    float: left;
+    padding-left: 1.42857rem; }
+  h2 i {
+    float: right;
+    padding-right: 1.42857rem; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+li {
+  list-style: none; }
+
+/*--------------------------------------------------------------------------------- */
+.section h2 {
+  background: #1D1A23; }
+.section .div {
+  margin-top: 0.85714rem;
+  text-align: center; }
+  .section .div input {
+    padding-left: 0.71429rem;
+    width: 70%;
+    background: #F5F3F8;
+    height: 2.14286rem;
+    border: none;
+    border-radius: 15px 0 0 15px; }
+  .section .div span {
+    display: inline-block;
+    width: 3.57143rem;
+    height: 2.14286rem;
+    line-height: 1.78571rem;
+    border-radius: 0 15px 15px 0;
+    background: #F5F3F8; }
+.section .ul {
+  padding: 0;
+  margin: 0; }
+  .section .ul li {
+    margin-top: 1.42857rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .section .ul li dl {
+      text-align: center; }
+      .section .ul li dl dd {
+        margin-top: 1.07143rem;
+        color: #000; }
+      .section .ul li dl img {
+        width: 7.14286rem;
+        height: 7.14286rem; }
+
+html, body, body > div {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+li {
+  list-style: none; }
+
+/*---------------------------------------------------------------------------------- */
+.section .mark {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.6; }
+.section .smallBox {
+  position: absolute;
+  top: 7%;
+  left: 7%;
+  width: 85%;
+  height: 85%;
+  background: #fff; }
+.section .dl {
+  text-align: center; }
+  .section .dl dt {
+    width: 100%;
+    height: 20.35714rem; }
+    .section .dl dt img {
+      width: 100%;
+      height: 100%; }
+  .section .dl dd {
+    margin-left: 0;
+    margin-top: 1.07143rem;
+    font-weight: bold; }
+    .section .dl dd p {
+      font-size: 0.85714rem;
+      font-weight: normal;
+      margin-top: 0.71429rem; }
+.section .ul2 {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 2.14286rem;
+  font-weight: bold; }
+  .section .ul2 li {
+    flex: 1; }
+    .section .ul2 li p {
+      font-size: 1rem;
+      font-weight: normal; }
+.section .div2 {
+  margin-top: 3.57143rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .section .div2 span {
+    width: 35%;
+    height: 3.14286rem;
+    line-height: 3.14286rem;
+    text-align: center; }
+    .section .div2 span:nth-child(1) {
+      background: #6AED0D;
+      color: #fff;
+      border-radius: 22px; }
+    .section .div2 span:nth-child(2) {
+      color: #913FFD; }
+
+/*# sourceMappingURL=social2.css.map */

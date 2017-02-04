@@ -1,0 +1,48 @@
+@media (max-width: 415px)
+  html
+    font-size: 16px
+@media (max-width: 376px)
+  html
+    font-size: 15px
+@media (max-width: 321px)
+  html
+    font-size: 14px
+@function p2r($v)
+  @return ($v/14/2)+rem
+@mixin row
+  display: flex
+  flex-direction: row
+@mixin col
+  display: flex
+  flex-direction: column
+@mixin center
+  justify-content: center
+  align-items: center
+@mixin positionA
+  position: absolute
+@mixin positionR
+  position: relative
+/*---------------------------------------------------------*/
+.blod
+  font-weight: bold
+.mar-8rem
+  margin: .8rem
+.colorWhite
+  color: white
+.colorBlack
+  color: black
+.underLine
+  text-decoration: underline
+/*--------------------------------------------------------*/
+h2
+  height: p2r(88)
+  line-height: p2r(88)
+  font-size: p2r(44)
+  text-align: center
+  color: #fff
+  span
+    float: left
+    padding-left: p2r(40)
+  i
+    float: right
+    padding-right: p2r(40)

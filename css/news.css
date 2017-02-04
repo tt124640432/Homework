@@ -1,0 +1,105 @@
+@media (max-width: 415px) {
+  html {
+    font-size: 16px; } }
+@media (max-width: 376px) {
+  html {
+    font-size: 15px; } }
+@media (max-width: 321px) {
+  html {
+    font-size: 14px; } }
+/*--------------------------------------------------------- */
+.blod {
+  font-weight: bold; }
+
+.mar-8rem {
+  margin: 0.8rem; }
+
+.colorWhite {
+  color: white; }
+
+.colorBlack {
+  color: black; }
+
+.underLine {
+  text-decoration: underline; }
+
+/*-------------------------------------------------------- */
+h2 {
+  height: 3.14286rem;
+  line-height: 3.14286rem;
+  font-size: 1.57143rem;
+  text-align: center;
+  color: #fff; }
+  h2 span {
+    float: left;
+    padding-left: 1.42857rem; }
+  h2 i {
+    float: right;
+    padding-right: 1.42857rem; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+li {
+  list-style: none; }
+
+/*--------------------------------------------------------------------------------- */
+.section {
+  background: #1F1923; }
+  .section .div {
+    margin-top: 0.32143rem;
+    text-align: center; }
+    .section .div h3 {
+      color: #fff;
+      font-size: 1.28571rem; }
+    .section .div ul {
+      color: #fff;
+      font-size: 0.85714rem; }
+      .section .div ul li {
+        line-height: 0.71429rem; }
+    .section .div button {
+      color: #fff;
+      margin-top: 20px;
+      height: 3.14286rem;
+      width: 40%;
+      background: #DB0D3B;
+      border-radius: 22px;
+      border-color: #DB0D3B;
+      margin-bottom: 3.92857rem; }
+  .section .slide-o .homedl {
+    width: 45%; }
+    .section .slide-o .homedl:nth-child(1) {
+      margin-left: 0.71429rem;
+      float: left; }
+    .section .slide-o .homedl:nth-child(2) {
+      margin-right: 0.71429rem;
+      float: right; }
+    .section .slide-o .homedl dt {
+      width: 100%;
+      height: 13.57143rem; }
+      .section .slide-o .homedl dt img {
+        height: 100%;
+        width: 100%; }
+    .section .slide-o .homedl dd {
+      margin: 0;
+      width: 100%;
+      background: #fff;
+      padding-top: 0.71429rem; }
+      .section .slide-o .homedl dd h3 {
+        font-weight: bold;
+        line-height: 1.42857rem;
+        color: #000; }
+      .section .slide-o .homedl dd ul {
+        padding: 0;
+        line-height: 1.07143rem;
+        font-size: 0.85714rem;
+        color: #E3E2E4; }
+  .section .homebox {
+    margin-top: 1.42857rem;
+    text-align: center; }
+    .section .homebox span {
+      background: #fff; }
+
+/*# sourceMappingURL=news.css.map */

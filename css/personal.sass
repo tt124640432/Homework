@@ -1,0 +1,55 @@
+@import "public"
+html,body,body>div
+  height: 100%
+  width: 100%
+  overflow: hidden
+li
+  list-style: none
+/*---------------------------------------------------------------------------------*/
+.section
+  height: 100%
+  background: url("../img/background3.png") no-repeat
+  background-size: contain
+  .div
+    padding-top: 80%
+    text-align: center
+    font-size: 1.2rem
+    color: #fff
+    p
+      padding-top: 10px
+      font-size: 1.3rem
+  .ul
+    padding: 0
+    @include row
+    justify-content: space-around
+    li
+      flex: 1
+      margin-top: p2r(50)
+      text-align: center
+      color: #fff
+      font-weight: bold
+      p
+        font-weight: normal
+        font-size: 1rem
+  .bt
+    margin: p2r(40) 0
+    height: p2r(80)
+    width: 40%
+    transform: translate(75%,0)
+    font-weight: bold
+    border-color: #F90DDE
+    background: #E50ECE
+    border-radius: 100px
+  .nav
+    position: absolute
+    bottom: 0
+    left: 0
+    height: p2r(88)
+    line-height: p2r(88)
+    width: 100%
+    @include row
+    justify-content: space-around
+    background: #fff
+    color: #000
+    & span
+      text-align: center

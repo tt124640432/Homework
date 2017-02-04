@@ -1,0 +1,43 @@
+@import "public"
+html,body
+  height: 100%
+  width: 100%
+  overflow: hidden
+li
+  list-style: none
+/*---------------------------------------------------------------------------------*/
+.section
+  h2
+    background: #1D1A23
+  .div
+    margin-top: p2r(24)
+    text-align: center
+    input
+      padding-left: p2r(20)
+      width: 70%
+      background: #F5F3F8
+      height: p2r(60)
+      border: none
+      border-radius: 15px 0 0 15px
+    span
+      display: inline-block
+      width: p2r(100)
+      height: p2r(60)
+      line-height: p2r(50)
+      border-radius: 0 15px 15px 0
+      background: #F5F3F8
+  .ul
+    padding: 0
+    margin: 0
+    li
+      margin-top: p2r(40)
+      @include row
+      justify-content: space-around
+      dl
+        text-align: center
+        dd
+          margin-top: p2r(30)
+          color: #000
+        img
+          width: p2r(200)
+          height: p2r(200)

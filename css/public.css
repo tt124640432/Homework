@@ -1,0 +1,26 @@
+@media (max-width: 415px) {
+  html {
+    font-size: 16px; } }
+@media (max-width: 376px) {
+  html {
+    font-size: 15px; } }
+@media (max-width: 321px) {
+  html {
+    font-size: 14px; } }
+/*--------------------------------------------------------- */
+.blod {
+  font-weight: bold; }
+
+.mar-8rem {
+  margin: 0.8rem; }
+
+.colorWhite {
+  color: white; }
+
+.colorBlack {
+  color: black; }
+
+.underLine {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=public.css.map */

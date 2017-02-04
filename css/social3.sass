@@ -1,0 +1,49 @@
+@import "public"
+@import "social"
+html,body,body>div
+  height: 100%
+  width: 100%
+  overflow: auto
+li
+  padding: 0
+  list-style: none
+/*----------------------------------------------------------------------------------*/
+.section
+  overflow: auto
+  .nav3
+    @include row
+    justify-content: space-around
+    height: p2r(80)
+    line-height: p2r(80)
+    border-top: 1px solid #34313A
+    background: #1E1B24
+    color: whitesmoke
+  .div3
+    margin-top: p2r(20)
+    dl
+      margin-left: 1rem
+      height: p2r(120)
+      width: 100%
+      dt
+        float: left
+      dd
+        padding-top: p2r(20)
+        margin-left: p2r(20)
+        float: left
+        font-weight: bold
+        color: #000
+        p
+          font-size: p2r(28)
+          font-weight: 400
+          color: #BABABC
+    ul
+      padding: 0
+      margin: 0
+      @include row
+      justify-content: space-around
+      li
+        width: p2r(480)
+        img
+          width: 100%
+          min-height: p2r(340)
+          height: auto

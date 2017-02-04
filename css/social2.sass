@@ -1,0 +1,68 @@
+@import "public"
+@import "social"
+html,body,body>div
+  height: 100%
+  width: 100%
+  overflow: hidden
+li
+  list-style: none
+/*----------------------------------------------------------------------------------*/
+.section
+  .mark
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    background: #000
+    opacity: .6
+  .smallBox
+    position: absolute
+    top: 7%
+    left: 7%
+    width: 85%
+    height: 85%
+    background: #fff
+  .dl
+    text-align: center
+    dt
+      width: 100%
+      height: p2r(570)
+      img
+        width: 100%
+        height: 100%
+    dd
+      margin-left: 0
+      margin-top: p2r(30)
+      font-weight: bold
+      p
+        font-size: p2r(24)
+        font-weight: normal
+        margin-top: p2r(20)
+  .ul2
+    padding: 0
+    @include row
+    justify-content: space-around
+    text-align: center
+    margin-top: p2r(60)
+    font-weight: bold
+    li
+      flex: 1
+      p
+        font-size: p2r(28)
+        font-weight: normal
+  .div2
+    margin-top: p2r(100)
+    @include row
+    justify-content: space-around
+    span
+      width: 35%
+      height: p2r(88)
+      line-height: p2r(88)
+      text-align: center
+      &:nth-child(1)
+        background: #6AED0D
+        color: #fff
+        border-radius: 22px
+      &:nth-child(2)
+        color: #913FFD
